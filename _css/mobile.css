@@ -1,0 +1,115 @@
+@charset "UTF-8";
+.dimencao-artigo {
+	width: 90%;
+}
+.cabecalho h2 {
+	display: none;
+}
+#menu-sandwich {
+	display: block;
+	position: absolute;
+	right: 10%;
+	top: -15px;
+}
+#menu {
+	background-color: white;
+}
+/* Dropdown*/
+#menu-sandwich {
+	background: url('../_imagens/_icones/burger.png') no-repeat left;
+	display: block;
+	width: 70px;
+	height: 40px;
+	text-indent: -9999px;
+}
+#lista-menu {
+	display: none;
+	width: 150px;
+	position: absolute;
+	right: 10%;
+	top: 25px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px black;
+}
+#menu:hover  #lista-menu{
+	display: block;
+}
+#postagem-js:hover ul { 
+	display:none;
+}
+#arquivos h2 {
+	font-size: 12px;
+	color: black;
+}
+#lista-menu li {
+	display: block;
+	margin: 10px 10px 10px 10px;
+}
+#lista-menu li a {
+	color: black;
+}
+/* Novidades */
+.novidades ul li {
+	display: block;
+	float: none;
+	width: 90%;
+	margin-bottom: 10px;
+	max-width: 100%;
+}
+.novidades figure img {
+	float: none;
+	margin-bottom: 10px;
+}
+.novidades figure figcaption {
+	float: none;
+	width: 100%;
+	margin-left: 1%;
+}
+/*Sobre - mobile*/
+.homem-computador {
+	width: 100%;
+}
+.imagem-mulher {
+	width: 100%;
+}
+.float-right {
+	float: none;
+}
+.float-left {
+	float: none;
+}
+.primeiro-texto {
+	margin-top: 5px;
+}
+
+.paragrafo-dois {
+	width: 100%;
+	margin-bottom: 50px;
+}
+/* Lateral da página artigo */
+#postagem {
+	width: 100%;
+	margin: 20px 0 50px 0;
+	float: none;
+}
+#lateral {
+	width: 100%;
+	float: none;
+	margin-bottom: 50px;
+}
+/* rodape */
+footer nav ul {
+	position: static;
+	text-align: center;
+}
+footer h1 {
+	text-align: center;
+}
+footer p {
+	margin-right: 20px;
+	position: static;
+	text-align: center;
+	margin-left: 0;
+	margin-top: 10px;
+}

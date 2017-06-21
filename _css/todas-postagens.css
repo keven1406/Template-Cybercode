@@ -1,0 +1,36 @@
+@charset "UTF-8";
+#lista-todas-postagens li a h2 {
+	color: black;
+	font-size: 1.25em;
+	font-weight: bolder;
+}
+#lista-todas-postagens a h3 {
+	color: black;
+}
+#lista-todas-postagens {
+	margin-top: 20px;
+	margin-bottom: 200px;
+}
+#lista-todas-postagens li {
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.secao-todas-postagens {
+	width: 80%;
+}
+.secao-todas-postagens p {
+	color: black;
+	font-size: 1.25em;
+	text-decoration: none;
+	text-indent: 0;
+	margin: 0;
+	text-align: left;
+}
+.secao-todas-postagens h1 {
+	font-family: 'Arial', sans-serif;
+	font-weight: bolder;
+	background-color: #4a84ae;
+	padding: 10px;
+	color: white;
+	box-shadow: 2px 2px 2px black;
+}

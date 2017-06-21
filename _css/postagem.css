@@ -1,0 +1,74 @@
+@charset "UTF-8";
+figcaption {
+	display: none;
+}
+img {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid white;
+}
+.tamanho-sec {
+	width: 95%;
+}
+#postagem {
+	width: 68%;
+	margin: 20px 0 50px 0;
+	float: left;
+}
+#postagem p {
+	margin-top: 30px;
+	text-align: left;
+}
+#postagem h1 {
+	font-family: 'Arial', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#cabecalho-postagem {
+	background-color: #4a84ae;
+	padding: 10px;
+	box-shadow: 2px 2px 2px black;
+	color: white;
+	margin-top: -10px;
+}
+#cabecalho-postagem h1 {
+	font-size: 1.25em;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: left;
+	font-weight: normal;
+}
+#cabecalho-postagem h2 {
+	font-size: 1.10em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#lateral {
+	width: 30%;
+	float: right;
+	margin-left: 0; 
+}
+#lateral ul {
+	list-style: disc;
+	margin-left: 10%;
+}
+#lateral h1 {
+	font-size: 1.35em;
+	background-color: #4a84ae;
+	padding: 10px;
+	color: white;
+	box-shadow: 2px 2px 2px black;
+}
+#lateral ul li {
+	margin-bottom: 5px;
+}
+#lateral a {
+	color: black;
+	text-decoration: none;
+	font-size: 1.20em;
+}

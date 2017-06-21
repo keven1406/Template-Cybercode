@@ -1,0 +1,274 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'Designer-block';
+	src: url('../_fonts/designer-block.ttf');
+}
+/* Seletores gerais */
+h1, footer h1 {
+	font-family: 'Designer-block', 'Arial', sans-serif;
+	font-size: 2.5em;
+	margin: 10px 0 10px 0;
+}
+h2 {
+	font-family: 'Arial', sans-serif;
+	font-size: 1.8em;
+	color: white;
+}
+p {
+	text-indent: 1.25em;
+	text-align: justify;
+	font-size: 1.25em;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+.clear {
+	clear: both;
+}
+/* cabeçalho*/
+.cabecalho {
+	background-color: #4a84ae;
+	padding: 10px;
+	position: relative;
+}
+.cabecalho h1 {
+	color: white;
+	margin: 0;
+}
+#titulo-principal {
+	text-decoration: none;
+}
+/* Menu do cabeçalho */
+#menu {
+	display: block;
+	position: absolute;
+	top: 40%;
+	right: 2%;
+}
+#menu ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+#menu ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.06em ;
+}
+/* Menu interior ao menu do cabecalho */
+
+#lista-javascript {
+	position: absolute;
+	right: 10%;
+	top: 15px;
+	width: 150px;
+	display: none;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px black;
+}
+#lista-javascript {
+	padding: 10px;
+}
+#lista-javascript li {
+	margin-bottom: 5px;
+}
+#lista-javascript a:hover {
+	border-bottom: 1px solid black;
+
+}
+#lista-javascript li a {
+	color: black;
+}
+#postagem-js:hover ul { 
+	display:block;
+}
+/*------------------------------------*/
+#menu-sandwich {
+	display: none;
+}
+/* Área bem vindo*/
+#principal {
+	background: url('../_imagens/background-inicio.jpg') no-repeat;
+	background-size: cover;
+}
+.opacidade {
+	background-color: rgba(0,0,0,.2);
+}
+.dimencao-artigo {
+	width: 40%;
+	padding-top: 13%;
+	padding-bottom: 13%;
+	color: black;
+}
+.dimencao-artigo a {
+	color: #040867;
+}
+.div-cor {
+	background-color: rgba(255,255,255,.7);
+	border-radius: 50px;
+	padding: 20px;
+}
+.dimencao-artigo h1 {
+	text-align: center;
+}
+/* Novidades */
+#secao-novidades {
+	background-color: #7bdaba;
+	padding: 0 3% 3.5% 3%;
+	position: relative;
+}
+.novidades {
+	background-color: white;
+	width: 90%;
+	padding: 1%;
+}
+.novidades ul li a {
+	text-align: left;
+}
+#titulo-suspenso {
+	width: 210px;
+	margin-left: 4%;
+}
+#titulo-suspenso h1 {
+	font-size: 1.87em;
+	margin: 0;
+}
+#titulo-suspenso h2 {
+	color: black;
+	font-size: 0.93em;
+	margin: 0;
+}
+#titulo-suspenso {
+	background-color: white;
+}
+.novidades {
+	position: relative;
+	margin-bottom: 0;
+}
+.novidades ul li {
+	display: block;
+	margin-right: 10px;
+	float: left;
+	width: 47%;
+	max-width: 47%;
+	margin-top: 5px;
+}
+.novidades figure img {
+	float: left;
+}
+.novidades figure figcaption {
+	float: left;
+	width: 70%;
+	margin-left: 1%;
+}
+.novidades h1 {
+	font-family: 'Arial', sans-serif;
+	font-size: 1.6em;
+	margin: 0;
+	margin-bottom: 0;
+	color: #4a84ae;
+}
+.novidades h3 {
+	font-size: 1.0em;
+	margin-top: 0;
+	color: black;
+}
+.novidades p {
+	text-indent: 0;
+	color: black;
+	text-align: left;
+}
+#seta-esquerda {
+	position: absolute;
+	top: 40%;
+	left: 1%;
+}
+#seta-direita {
+	position: absolute;
+	top: 40%;
+	right: 1%;
+}
+/*Sobre*/
+.margin-sobre {
+	margin-top: 0;
+	padding: 20px;
+	color: white;
+}
+.homem-computador {
+	margin-right: 5%;
+}
+.paragrafo-um {
+	margin-bottom: 0;
+}
+.primeiro-texto {
+	padding-top: 10%;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.imagem-mulher {
+	margin-left: 5%;
+}
+.paragrafo-dois {
+	width: 100%;
+	padding-top: 10%;
+	margin-bottom: 10px;
+}
+.article-about {
+	width: 70%;
+}
+/*Rodape*/
+footer {
+	clear: both;
+	background-color: #4a84ae;
+	color: white;
+	padding: 10px;
+}
+.rodape {
+	position: relative;
+	width: 90%;
+}
+footer h2 {
+	display: none;
+}
+footer ul {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+footer ul li {
+	display: inline-block;
+	margin-left: 5px;
+}
+a[href*="twitter.com"] {
+	background: url('../_imagens/_icones/twitter.png') no-repeat;
+}
+a[href*="facebook.com"] {
+	background: url('../_imagens/_icones/facebook.png') no-repeat;
+}
+a[href*="github.com"] {
+	background: url('../_imagens/_icones/github.png') no-repeat;
+}
+footer ul li a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-indent: -9999px;
+}
+footer p {
+	font-size: 1.0em;
+	display: block;
+
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -125px;
+}
