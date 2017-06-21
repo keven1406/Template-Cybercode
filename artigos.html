@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+	<head>
+		<!--[if lt IE 9]>
+    		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+		<title>Cybercode</title>
+		<meta charset = "UTF-8"/>
+		<meta name = "viewport" content = "width=device-width"/>
+		<link rel = "stylesheet" href = "_css/reset.css"/>
+		<link rel = "stylesheet" href = "_css/estilo.css" media = "screen"/>
+		<link rel = "stylesheet" href = "_css/postagem.css" media = "screen"/>
+		<link rel = "stylesheet" href = "_css/mobile.css" media = "(max-width: 800px)"/>
+	</head>
+	<body>
+		<div class = "container divisao">
+			<header class = "cabecalho">
+				<hgroup>
+					<h1><a href = "index.html"  id = "titulo-principal">Cybercode</a></h1>
+					<h2>Levando o espaço virtual até você</h2>
+				</hgroup>
+				<nav id = "menu" onmousemove = "sandwich(true)" onmouseout = "sandwich(false)">
+					<h1 id = "menu-sandwich" >Menu</h1>
+					<ul id = "lista-menu">
+						<div>
+							<li>
+								<a href = "index.html">Inicio</a>
+							</li>
+							<li id = "postagem-js">
+								<a href = "todas-postagens.html">JavaScript</a>
+								<ul id = "lista-javascript">
+									<li><a href = "artigos.html">Matematica</a></li>
+									<li><a href = "#">Variáveis</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href = "index.html#about">Sobre</a>
+							</li>
+						</div>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<!--Fim cabecalho -->
+		<section class = "container tamanho-sec">
+			<section id = "postagem">
+				<header id = "cabecalho-postagem">
+					<hgroup>
+						<h1>Matemática</h1>
+						<h2>Por: Elias Keven</h2>
+						<h3>17/06/2017</h3>
+					</hgroup>
+				</header>
+				<article>
+					<h1>Novo quadro no Blog</h1>
+					<figure>
+						<img src = "_imagens/_postagens/matematica.jpg" alt = "Calculos matemáticos"/>
+						<figcaption>
+							<p>A importantica da matemática na programação</p>
+						</figcaption>
+					</figure>
+
+					<p>Sabemos que tudo no nosso mundo existe graças aos <em>valores matemáticos</em>. Desde uma pequenina flor a um imenso e infinto universo. Os números estão em todo lugar e é graças a ele que temos os computadores hoje em dia. Se não fosse a matemática, não teríamos nem como construir uma casa confiável. Então, como é uma coisa que estou estudando muito e que tem tudo a ver com informática, irei começar uma série de artigos sobre <strong>matemática</strong>. Já vou avisando que não sou um professor de matemática, mas como é algo que estou estudando bastante no meu dia a dia, irei postar nesse nova série artigos explicando a matemática desde 5ª série. Não posso dizer até onde vai essa nova séria, no entanto posso dizer que irá continuar até terminar todo o assunto básico da matemática que será útil na programação e possivelmente na vida. Vai ser um quadro didático para quem quer aprender e ter base em matemática. Esse quadro vai ser destinado a todos os tipos de pessoas. Até mesmo aquelas que sabem quase nada de matemática. Por isso, espero que gostem… por que mesmo se vocês não gostarem eu vou continuar postando.</p>
+				</article>
+			</section>
+			<!-- Fim da section -->
+			<aside id = "lateral">
+				<nav>
+					<h1>Outros artigos</h1>
+					<ul>
+						<li><a href = "#">Recursividade no JavaScript</a></li>
+						<li><a href = "#">Escopo léxico</a></li>
+						<li><a href = "#">Tratamento de Strings</a></li>
+						<li><a href = "#">Váriáveis</a></li>
+					</ul>
+				</nav>
+			</aside>
+		</section>
+		<footer>
+			<div class = "rodape container">
+				<h1>Cybercode</h1>
+				<nav>
+					<h2>redes sociais</h2>
+					<ul>
+						<li><a href = "http://twitter.com" target = "_blank">Twitter</a></li>
+						<li><a href = "http://facebook.com" target = "blank">facebook</a></li>
+						<li><a href = "http://github.com" target = "_blank">Github</a></li>
+					</ul>
+				</nav>
+				<p>Copyright &copy; 2017 - Elias Keven</p>
+			</div>
+		</footer>
+		<script src = "_javascript/funcoes.js"></script>
+	</body>
+</html>
