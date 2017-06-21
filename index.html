@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+	<head>
+		<!--[if lt IE 9]>
+    		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+		<title>Cybercode</title>
+		<meta charset = "UTF-8"/>
+		<meta name = "viewport" content = "width=device-width"/>
+		<link rel = "stylesheet" href = "_css/reset.css"/>
+		<link rel = "stylesheet" href = "_css/estilo.css" media = "screen"/>
+		<link rel = "stylesheet" href = "_css/mobile.css" media = "(max-width: 800px)"/>
+	</head>
+	<body>
+		<div class = "container divisao">
+			<header class = "cabecalho">
+				<hgroup>
+					<h1><a href = "index.html" id = "titulo-principal">Cybercode</a></h1>
+					<h2>Levando o espaço virtual até você</h2>
+				</hgroup>
+				<nav id = "menu" onmousemove = "sandwich(true)" onmouseout = "sandwich(false)">
+					<h1 id = "menu-sandwich" >Menu</h1>
+					<ul id = "lista-menu">
+						<div>
+							<li>
+								<a href = "index.html">Inicio</a>
+							</li>
+							<li id = "postagem-js">
+								<a href = "todas-postagens.html">JavaScript</a>
+								<ul id = "lista-javascript">
+									<li><a href = "artigos.html">Matematica</a></li>
+									<li><a href = "#">Variáveis</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href = "#about">Sobre</a>
+							</li>
+						</div>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<!--Fim cabecalho -->
+		<section id = "principal">
+			<div class = "opacidade">
+				<article class = "container dimencao-artigo">
+					<div class = "div-cor">
+						<h1>Bem vindo a Cybercode</h1>
+						<p>Aqui vo&shy;cê en&shy;con&shy;tra tu&shy;do so&shy;bre <strong>de&shy;sen&shy;vol&shy;vi&shy;men&shy;to web e se&shy;gu&shy;ran&shy;ça da in&shy;for&shy;ma&shy;ção</strong>. Esse blog foi fei&shy;to pa&shy;ra pe&shy;sso&shy;as <em>cu&shy;rio&shy;sas e cri&shy;a&shy;ti&shy;vas</em>, que de&shy;di&shy;cam bas&shy;tan&shy;te tem&shy;po pa&shy;ra a&shy;pren&shy;der. Se vo&shy;cê for uma pe&shy;sso&shy;a ex&shy;pe&shy;rien&shy;te ou se vo&shy;cê for um ini&shy;cian&shy;te ne&shy;sse mun&shy;do e quer sa&shy;ber um pou&shy;qui&shy;nho mais, se&shy;ja bem vin&shy;do a Cy&shy;ber&shy;co&shy;de! Para sa&shy;ber mais so&shy;bre nós, vo&shy;cê po&shy;de ace&shy;ssar a se&shy;ção <a href = "#about">Sobre</a> do no&shy;sso si&shy;te.</p>
+					</div>
+				</article>
+			</div>
+		</section>
+		<!-- Fim da section principal -->
+		<section id = "secao-novidades">
+			<div id = "titulo-suspenso">
+				<hgroup>
+					<h1>Novidades</h1>
+					<h2>Semana 05 de Junho de 2017</h2>
+				</hgroup>
+			</div>
+			<img src = "_imagens/_icones/seta-esquerda.png" alt = "Voltar para semana anterior" id = "seta-esquerda"/>
+			<img src = "_imagens/_icones/seta-direita.png" alt = "Proseguir para proxima semana" id = "seta-direita"/>
+			<div class = "novidades container">
+				<ul>
+					<li>
+						<a href = "artigo.html">
+							<figure>
+								<img src = "_imagens/_postagens/postagem-js.png" alt = "javascript"/>
+								<figcaption>
+									<h1>Estruturas condicionais do PHP</h1>
+									<h3>08/06/2017</h3>
+									<p>O PHP foi construido com base no C, logo da para imaginar ou seja...</p>
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+					<li>
+						<a href = "artigo.html">
+							<figure>
+								<img src = "_imagens/_postagens/postagem-php.png" alt = "php"/>
+								<figcaption>
+									<h1>Variáveis do PHP</h1>
+									<h3>08/06/2017</h3>
+									<p>Estudar PHP é muito bom, já que é uma...</p>
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+					<li>
+						<a href = "artigo.html">
+							<figure>
+								<img src = "_imagens/_postagens/postagem-html.png" alt = "html"/>
+								<figcaption>
+									<h1>Semântica do HTML5</h1>
+									<h3>10/06/2017</h3>
+									<p>Hoje em dia, HTML sem samantica significa que seu site não ficará bem rankeado...</p>
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+				</ul>
+				<div class = "clear"></div>
+			</div>
+		</section>
+		<!-- Fim novidades -->
+		<section id = "about">
+			<article>
+				<h1 class = "cabecalho margin-sobre">Ficou curioso sobre o blog, né?</h1> 
+				<div  class = "article-about container">
+					<div class = "paragrafo-um">
+						<figure>
+							<img src = "_imagens/homem-computador2.png" alt = "Homem estudando programação no computador" class = "float-left homem-computador"/>
+						</figure>
+						<p class = "primeiro-texto">O&shy;kye, vo&shy;u fa&shy;lar um pou&shy;co so&shy;bre ele e seu au&shy;tor. To&shy;mei a ini&shy;cia&shy;ti&shy;va de cri&shy;ar esse blo&shy;g pa&shy;ra <em>com&shy;par&shy;ti&shy;lhar</em> meus co&shy;nhe&shy;cimen&shy;tos. Ain&shy;da não sou um <strong>Mes&shy;tre Nin&shy;ja Je&shy;di vi&shy;ra&shy;do nos ca&shy;cho&shy;rros</strong>, mas já sei al&shy;gu&shy;nas coi&shy;sas. Es&shy;tu&shy;do pro&shy;gra&shy;ma&shy;ção a 11 me&shy;ses (pe&shy;lo me&shy;nos na data que es&shy;cre&shy;vi esse ar&shy;ti&shy;go (08/06/2017)) e fa&shy;ço isso por mais de 5 ho&shy;ras por dia. No ini&shy;cio que&shy;ria ser um hac&shy;ker... Acho que mui&shy;ta gen&shy;te pen&shy;sa a&shy;ssim. Mas lo&shy;go des&shy;co&shy;bri que pa&shy;ra ser um hac&shy;ker, eu ti&shy;nha que es&shy;tu&shy;dar mui&shy;to a&shy;lém do que po&shy;dia ima&shy;gi&shy;nar. Mas isso não me a&shy;ba&shy;la. Gos&shy;to de es&shy;tu&shy;dar e de&shy;po&shy;is de&shy;sses me&shy;ses pro&shy;gra&shy;man&shy;do po&shy;sso a&shy;fir&shy;mar que <strong>a&shy;mo</strong> o que fa&shy;ço. Sim, a&shy;in&shy;da te&shy;nho o de&shy;se&shy;jo de ser um hac&shy;ker, e por isso con&shy;ti&shy;nuo <strong>es&shy;tu&shy;dan&shy;do bas&shy;tan&shy;te</strong>.</p>
+						<div class = "clear"></div>
+					</div>
+					<div>
+						<figure>
+							<img src = "_imagens/mulher-computador2.png" alt = "Mulher olhando um site" class = "float-right imagem-mulher"/>
+						</figure>
+						<p class = "paragrafo-dois">Me&shy;u obje&shy;ti&shy;vo pa&shy;ra 2017 é con&shy;se&shy;guir cres&shy;cer ca&shy;da vez ma&shy;is no de&shy;sen&shy;vol&shy;vi&shy;men&shy;to Web. Me&shy;u fo&shy;co é o Ja&shy;va&shy;Scri&shy;pt, po&shy;rem de&shy;pois de me&shy;ses es&shy;tu&shy;dan&shy;do essa lin&shy;gua&shy;gem, co&shy;me&shy;cei a es&shy;tu&shy;dar o PHP. Que me mos&shy;tro&shy;u um ou&shy;tro mun&shy;do haha. Ló&shy;gi&shy;co, meu fo&shy;co é me es&shy;pe&shy;cia&shy;li&shy;zar no front&shy;-end, mas na&shy;da me im&shy;pe&shy;de de es&shy;tu&shy;dar ou&shy;tras coi&shy;sas tam&shy;bém. En&shy;tão, es&shy;pe&shy;ro que gos&shy;te do meu blog. Es&shy;pe&shy;ro de ver&shy;da&shy;de a&shy;ju&shy;dar vo&shy;cê e, quem sa&shy;be, ad&shy;qui&shy;rir ma&shy;is co&shy;nheci&shy;men&shy;to fa&shy;zen&shy;do i&shy;sso! Bem vin&shy;do ao me&shy;u blog! Bem vin&shy;do ao es&shy;pa&shy;ço Cy&shy;ber&shy;co&shy;de.</p>
+						<div class = "clear"></div>
+					</div>
+				</div>
+			</article>
+		</section>
+		<!-- fim sobre -->
+		<footer>
+			<div class = "rodape container">
+				<h1>Cybercode</h1>
+				<nav>
+					<h2>redes sociais</h2>
+					<ul>
+						<li><a href = "http://twitter.com" target = "_blank">Twitter</a></li>
+						<li><a href = "http://facebook.com" target = "blank">facebook</a></li>
+						<li><a href = "http://github.com" target = "_blank">Github</a></li>
+					</ul>
+				</nav>
+				<p>Copyright &copy; 2017 - Elias Keven</p>
+			</div>
+		</footer>
+		<!-- fim rodape -->
+		<!-- funcoes javascript -->
+		<script src = "_javascript/funcoes.js"></script>
+	</body>
+</html>
