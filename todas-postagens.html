@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+	<head>
+		<!--[if lt IE 9]>
+    		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+		<title>Cybercode</title>
+		<meta charset = "UTF-8"/>
+		<meta name = "viewport" content = "width=device-width"/>
+		<link rel = "stylesheet" href = "_css/reset.css"/>
+		<link rel = "stylesheet" href = "_css/estilo.css" media = "screen"/>
+		<link rel = "stylesheet" href = "_css/todas-postagens.css" media = "screen"/>
+		<link rel = "stylesheet" href = "_css/mobile.css" media = "(max-width: 800px)"/>
+	</head>
+	<body>
+		<div class = "container divisao">
+			<header class = "cabecalho">
+				<hgroup>
+					<h1><a href = "index.html"  id = "titulo-principal">Cybercode</a></h1>
+					<h2>Levando o espaço virtual até você</h2>
+				</hgroup>
+				<nav id = "menu" onmousemove = "sandwich(true)" onmouseout = "sandwich(false)">
+					<h1 id = "menu-sandwich" >Menu</h1>
+					<ul id = "lista-menu">
+						<div>
+							<li>
+								<a href = "index.html">Inicio</a>
+							</li>
+							<li id = "postagem-js">
+								<a href = "todas-postagens.html">JavaScript</a>
+								<ul id = "lista-javascript">
+									<li><a href = "artigos.html">Matematica</a></li>
+									<li><a href = "#">Variáveis</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href = "index.html#about">Sobre</a>
+							</li>
+						</div>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<!--Fim cabecalho -->
+		<section class = "container secao-todas-postagens">
+			<h1>JavaScript</h1>
+			<nav>
+				<ul id = "lista-todas-postagens">
+					<li>
+						<a href = "#">
+							<h2>Estruturas condicionais do PHP</h1>
+							<h3>08/06/2017</h3>
+							<p>O PHP foi construido com base no C, logo da para imaginar ou seja...</p>
+						</a>
+					</li>
+					<li>
+						<a href = "#">
+							<h2>Variáveis do PHP</h1>
+							<h3>08/06/2017</h3>
+							<p>Estudar PHP é muito bom, já que é uma...</p>
+						</a>
+					</li>
+					<li>
+						<a href = "#">
+							<h2>Semântica do HTML5</h1>
+							<h3>10/06/2017</h3>
+							<p>Hoje em dia, HTML sem samantica significa que seu site não ficará bem rankeado...</p>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+		<footer>
+			<div class = "rodape container">
+				<h1>Cybercode</h1>
+				<nav>
+					<h2>redes sociais</h2>
+					<ul>
+						<li><a href = "http://twitter.com" target = "_blank">Twitter</a></li>
+						<li><a href = "http://facebook.com" target = "blank">facebook</a></li>
+						<li><a href = "http://github.com" target = "_blank">Github</a></li>
+					</ul>
+				</nav>
+				<p>Copyright &copy; 2017 - Elias Keven</p>
+			</div>
+		</footer>
+		<!-- fim rodape -->
+		<!-- funcoes javascript -->
+		<script src = "_javascript/funcoes.js"></script>
+	</body>
+</html>
